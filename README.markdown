@@ -1,9 +1,7 @@
-civblogs
-========
-
 Pr&eacute;sentation
 -------------------
-civblogs est un simple annuaire qui indexe les billets provenant de la blogosph&egrave;re ivoirienne.
+Ceci est le code source de **civblogs**.
+**civblogs** est un simple annuaire qui indexe les billets provenant de la blogosph&egrave;re ivoirienne.
 Mais vous pouvez facilement l'adapter &agrave; toute autre blogosph&egrave;re.
 
 Vous pouvez voir l'application en ligne &agrave; l'addresse : http://civblogs.akendewa.org
@@ -11,7 +9,7 @@ Vous pouvez voir l'application en ligne &agrave; l'addresse : http://civblogs.ak
 Fonctionnalites
 ----------------
 
-*NB: Ce projet est encore tr&egrave;s r&eacute;cent, et peut changer a tout moment.*
+**NB: Ce projet est encore tr&egrave;s r&eacute;cent, et peut changer a tout moment.**
 
   * Connexion des utilisateurs via twitter
   * Recherche des billets par cat&eacute;gories
@@ -56,32 +54,32 @@ Si vous avez *Git* install&eacute; sur votre machine, vous pouvez simplement fai
 git clone https://github.com/akendewa/civblogs.git
 </pre>
 
-Sinon cliquez sur le bouton *ZIP* en haut de cette page.
+Sinon cliquez sur le bouton **ZIP** en haut de cette page.
 
 Une fois que vous avez t&eacute;l&eacute;charg&eacute; et copi&eacute; les fichiers dans le dossier web de votre serveur php, suivez les &eacute;tapes suivantes.
 
  * Cr&eacute;ez une application Twitter &agrave; l'addresse https://dev.twitter.com/apps/new
-    * Assurez vous de remplir tous les champs requis et surtout le *Callback URL:*. (Vous pouvez entrer une addresse fictive telle que http://mondomaine.com)
-    * Notez bien votre *Consumer key* et votre *Consumer secret*. Vous en aurez besoin pour continuer.    
- * Allez dans le dossier *app/Config* de votre application, faites une copie du fichier *bootstrap.php.default*. Ensuite renommez cette copie *bootstrap.php*
- * Ouvrez *bootstrap.php* et &agrave; la fin du fichier, changez les valeurs *Twitter.ConsumerKey* et *Twitter.ConsumerSecret* avec les votre.
+    * Assurez vous de remplir tous les champs requis et surtout le **Callback URL**. (Vous pouvez entrer une addresse fictive telle que http://mondomaine.com)
+    * Notez bien votre **Consumer key** et votre **Consumer secret**. Vous en aurez besoin pour continuer.    
+ * Allez dans le dossier **app/Config** de votre application, faites une copie du fichier **bootstrap.php.default**. Ensuite renommez cette copie **bootstrap.php**
+ * Ouvrez **bootstrap.php** et &agrave; la fin du fichier, changez les valeurs **Twitter.ConsumerKey** et **Twitter.ConsumerSecret** avec les votre.
 <pre>
 Configure::write('Twitter.ConsumerKey', 'VOTRE TWITTER CONSUMER KEY');
 Configure::write('Twitter.ConsumerSecret', 'VOTRE TWITTER CONSUMER SECRET');
 </pre> 
 
  * Cr&eacute;ez une application Embed.ly &agrave; l'addresse https://app.embed.ly/pricing/free
-   * Assurez vous de choisir le *Free Plan* (Plan Gratuit)
-   * Une fois votre application cr&eacute;&eacute;e, notez bien votre *API Key*. Vous en aurez besoin pour continuer.
- * Encore dans le fichier *bootstrap.php* et a&agrave; la fin du fichier, changez la valeur de  *Embedly.Key*.
+   * Assurez vous de choisir le **Free Plan** (Plan Gratuit)
+   * Une fois votre application cr&eacute;&eacute;e, notez bien votre **API Key**. Vous en aurez besoin pour continuer.
+ * Encore dans le fichier **bootstrap.php** et a&agrave; la fin du fichier, changez la valeur de  **Embedly.Key**.
 <pre>
   Configure::write('Embedly.Key', 'VOTRE EMBEDLY KEY');
 </pre>
 
 
-*On y est presque :-)*
+**On y est presque :-)**
 
- * Dans le dossier *app/Config*, faites une copie du fichier *core.php.default*. Ensuite renommez cette copie *core.php*
+ * Dans le dossier **app/Config**, faites une copie du fichier **core.php.default**. Ensuite renommez cette copie **core.php**
  * R&eacute;p&eacute;rez les lignes suivantes, et changes les valeurs de ces deux variables de configuration
  
 <pre>
@@ -99,8 +97,8 @@ Configure::write('Security.cipherSeed', 'REPLACE THIS WITH YOUR CIPHER SEED');
 Maintenant, il est temps d'installer les tables dans la base de donn&eacute;es de l'application.
 
 * Cr&eacute;ez une base de donn&eacute;es MySQL si vous ne l'avez pas encore fait.
-* Dans le dossier *app/Config*, faites une copie du fichier *database.php.default*. Ensuite renommez cette copie *database.php*
-* Changez la variable *$default* et entrez les param&egrave;tres de connexion &agrave; votre base de donn&eacute;es 
+* Dans le dossier **app/Config**, faites une copie du fichier **database.php.default**. Ensuite renommez cette copie **database.php**
+* Changez la variable **$default** et entrez les param&egrave;tres de connexion &agrave; votre base de donn&eacute;es 
 <pre>
 	public $default = array(
 		'datasource' => 'Database/Mysql',
@@ -114,7 +112,7 @@ Maintenant, il est temps d'installer les tables dans la base de donn&eacute;es d
 	);
 </pre>
 
-* Dans le dossier *app*, ouvrez le fichier *install-tables.sql* et executez toutes les commandes pr&eacute;sentes dans ce fichier dans votre base de donn&eacute;
+* Dans le dossier **app**, ouvrez le fichier **install-tables.sql** et executez toutes les commandes pr&eacute;sentes dans ce fichier dans votre base de donn&eacute;
 * Si tous c'est bien pass&eacute;, les tables suivantes seront cr&eacute;&eacute;es :
 <pre>
 blogs
@@ -146,29 +144,29 @@ Suivez les &eacute;tapes suivantes :
 
 Maintenant que vous avez cr&eacute;&eacute; votre compte utilisateur, il vous faut un acc&egrave;s *admin*.
 
-* Si vous avez acc&egrave;s &agrave; *phpMyAdmin*, r&eacute;p&eacute;rez dans la table *users* l'enregistrement de votre compte utlisateur et changer la propri&eacute;t&eacute; *is_admin* &agrave; *1*.
+* Si vous avez acc&egrave;s &agrave; **phpMyAdmin**, r&eacute;p&eacute;rez dans la table **users** l'enregistrement de votre compte utlisateur et changer la propri&eacute;t&eacute; **is_admin** &agrave; **1**.
 * Sinon si vous pouvez ex&eacute;cuter la commande SQL suivante :
 <pre>
   UPDATE  VOTRE_DB.`users` SET  `is_admin` =  '1' WHERE  `users`.`id` = ID_DE_VOTRE_COMPTE_UTILISATEUR;
 </pre>
 
-Et voil&agrave; lorsque vous actualiser la page http://localhost/civblogs, vous avez maintenant acc&egrave;s au menu *Admin*.
+Et voil&agrave; lorsque vous actualiser la page http://localhost/civblogs, vous avez maintenant acc&egrave;s au menu **Admin**.
 
 
 Ajout de donn&eacute;es;
 ----------------------
 
 Pour ajouter des donn&eacutes; dans votre annuaire vous avez 2 choix :
- * Vous pouvez ex&eacute;cut&eacute; le fichier SQL *install-data.sql* dans votre base de donn&eacute;es
+ * Vous pouvez ex&eacute;cut&eacute; le fichier SQL **install-data.sql** dans votre base de donn&eacute;es
  * Ou rajouter des donn&eacute;es manuellement.
 
 *Comment rajouter des donn&eacute;es manuellement?*
 
- * Cliquer sur *Admin* ensuite sur *Blogs*
- * Cliquer sur *Add blog* et completer le formulaire et soumettre. (Il est tr&eagrave;s important que vous remplissiez tous les champs)
- * Cliquer sur *Fetch rss*, les articles du blogue seront r&eacute;cup&eacute;r&eacute;s
- * Cliquer sur *See all fetched posts*. Vous aurez une liste de toutes billets de ce blogue.
- * Pour chaque billet, cliquer sur *fetch preview*, et ensuite sur *Change* dans la case suivante.
+ * Cliquer sur **Admin** ensuite sur **Blogs**
+ * Cliquer sur **Add blog** et completer le formulaire et soumettre. (Il est tr&eagrave;s important que vous remplissiez tous les champs)
+ * Cliquer sur **Fetch rss**, les articles du blogue seront r&eacute;cup&eacute;r&eacute;s
+ * Cliquer sur **See all fetched posts**. Vous aurez une liste de toutes billets de ce blogue.
+ * Pour chaque billet, cliquer sur **fetch preview**, et ensuite sur **Change** dans la case suivante.
 
 Et voila! les billet s'afficheront sur votre page d'accueil!
 
