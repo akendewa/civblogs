@@ -1,0 +1,1307 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: civblogs\n"
+"POT-Creation-Date: 2012-05-28 16:46-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: regis bamba <regis.bamba@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+
+#: Controller/AppController.php:42
+msgid "You are not allowed to access this section."
+msgstr "Vous n'&ecirc;tes pas autoris&eacute; &agrave; acc&eacute;der &agrave; cette section."
+
+#: Controller/BlogsController.php:32
+msgid "Suggest a blog"
+msgstr "Sugg&eacute;rer un blogue"
+
+#: Controller/BlogsController.php:38
+msgid "Thanks for your suggestion"
+msgstr "Merci pour votre suggestion."
+
+#: Controller/BlogsController.php:41;70;85
+msgid "The blog could not be saved. Please, try again."
+msgstr "Impossible de sauvegarder ce blogue. Veuillez r&eacute;essayer."
+
+#: Controller/BlogsController.php:49;78;100
+msgid "Invalid blog"
+msgstr "Blog invalide"
+
+#: Controller/BlogsController.php:67;82
+msgid "The blog has been saved"
+msgstr "Le blog a &eacute;t&eacute; sauvegard&eacute;"
+
+#: Controller/BlogsController.php:103
+msgid "Blog deleted"
+msgstr "Blog supprim&eacute;"
+
+#: Controller/BlogsController.php:106
+msgid "Blog was not deleted"
+msgstr ""
+
+#: Controller/CategoriesController.php:27;44
+msgid "The category has been saved"
+msgstr ""
+
+#: Controller/CategoriesController.php:30;47
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/CategoriesController.php:40;62
+msgid "Invalid category"
+msgstr ""
+
+#: Controller/CategoriesController.php:65
+msgid "Category deleted"
+msgstr ""
+
+#: Controller/CategoriesController.php:68
+msgid "Category was not deleted"
+msgstr ""
+
+#: Controller/PostsController.php:79;93;106;145;168
+msgid "Invalid post"
+msgstr ""
+
+#: Controller/PostsController.php:128
+msgid "Preview Fetched"
+msgstr ""
+
+#: Controller/PostsController.php:149
+msgid "The post has been saved"
+msgstr ""
+
+#: Controller/PostsController.php:152
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PostsController.php:171
+msgid "Post deleted"
+msgstr ""
+
+#: Controller/PostsController.php:174
+msgid "Post was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:50;128
+msgid "We could not connect to Twitter. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:136
+msgid "You have been logged out"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:55
+msgid "Invalid setting for key: Use iso, name, iso3, numcode or printableName."
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:59
+msgid "Afghanistan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:60
+msgid "Albania"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:61
+msgid "Algeria"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:62
+msgid "American Samoa"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:63
+msgid "Andorra"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:64
+msgid "Angola"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:65
+msgid "Anguilla"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:66
+msgid "Antarctica"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:67
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:68
+msgid "Argentina"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:69
+msgid "Armenia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:70
+msgid "Aruba"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:71
+msgid "Australia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:72
+msgid "Austria"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:73
+msgid "Azerbaijan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:74
+msgid "Bahamas"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:75
+msgid "Bahrain"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:76
+msgid "Bangladesh"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:77
+msgid "Barbados"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:78
+msgid "Belarus"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:79
+msgid "Belgium"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:80
+msgid "Belize"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:81
+msgid "Benin"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:82
+msgid "Bermuda"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:83
+msgid "Bhutan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:84
+msgid "Bolivia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:85
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:86
+msgid "Botswana"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:87
+msgid "Bouvet Island"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:88
+msgid "Brazil"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:89
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:90
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:91
+msgid "Bulgaria"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:92
+msgid "Burkina Faso"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:93
+msgid "Burundi"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:94
+msgid "Cambodia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:95
+msgid "Cameroon"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:96
+msgid "Canada"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:97
+msgid "Cape Verde"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:98
+msgid "Cayman Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:99
+msgid "Central African Republic"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:100
+msgid "Chad"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:101
+msgid "Chile"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:102
+msgid "China"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:103
+msgid "Christmas Island"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:104
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:105
+msgid "Colombia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:106
+msgid "Comoros"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:107
+msgid "Congo"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:108
+msgid "Congo, the Democratic Republic of the"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:109
+msgid "Cook Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:110
+msgid "Costa Rica"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:111
+msgid "Cote D'Ivoire"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:112
+msgid "Croatia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:113
+msgid "Cuba"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:114
+msgid "Cyprus"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:115
+msgid "Czech Republic"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:116
+msgid "Denmark"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:117
+msgid "Djibouti"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:118
+msgid "Dominica"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:119
+msgid "Dominican Republic"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:120
+msgid "Ecuador"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:121
+msgid "Egypt"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:122
+msgid "El Salvador"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:123
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:124
+msgid "Eritrea"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:125
+msgid "Estonia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:126
+msgid "Ethiopia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:127
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:128
+msgid "Faroe Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:129
+msgid "Fiji"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:130
+msgid "Finland"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:131
+msgid "France"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:132
+msgid "French Guiana"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:133
+msgid "French Polynesia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:134
+msgid "French Southern Territories"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:135
+msgid "Gabon"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:136
+msgid "Gambia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:137
+msgid "Georgia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:138
+msgid "Germany"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:139
+msgid "Ghana"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:140
+msgid "Gibraltar"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:141
+msgid "Greece"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:142
+msgid "Greenland"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:143
+msgid "Grenada"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:144
+msgid "Guadeloupe"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:145
+msgid "Guam"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:146
+msgid "Guatemala"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:147
+msgid "Guinea"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:148
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:149
+msgid "Guyana"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:150
+msgid "Haiti"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:151
+msgid "Heard Island and Mcdonald Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:152
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:153
+msgid "Honduras"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:154
+msgid "Hong Kong"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:155
+msgid "Hungary"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:156
+msgid "Iceland"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:157
+msgid "India"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:158
+msgid "Indonesia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:159
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:160
+msgid "Iraq"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:161
+msgid "Ireland"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:162
+msgid "Israel"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:163
+msgid "Italy"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:164
+msgid "Jamaica"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:165
+msgid "Japan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:166
+msgid "Jordan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:167
+msgid "Kazakhstan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:168
+msgid "Kenya"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:169
+msgid "Kiribati"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:170
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:171
+msgid "Korea, Republic of"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:172
+msgid "Kuwait"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:173
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:174
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:175
+msgid "Latvia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:176
+msgid "Lebanon"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:177
+msgid "Lesotho"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:178
+msgid "Liberia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:179
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:180
+msgid "Liechtenstein"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:181
+msgid "Lithuania"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:182
+msgid "Luxembourg"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:183
+msgid "Macao"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:184
+msgid "Macedonia, the Former Yugoslav Republic of"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:185
+msgid "Madagascar"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:186
+msgid "Malawi"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:187
+msgid "Malaysia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:188
+msgid "Maldives"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:189
+msgid "Mali"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:190
+msgid "Malta"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:191
+msgid "Marshall Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:192
+msgid "Martinique"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:193
+msgid "Mauritania"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:194
+msgid "Mauritius"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:195
+msgid "Mayotte"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:196
+msgid "Mexico"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:197
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:198
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:199
+msgid "Monaco"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:200
+msgid "Mongolia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:201
+msgid "Montserrat"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:202
+msgid "Morocco"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:203
+msgid "Mozambique"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:204
+msgid "Myanmar"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:205
+msgid "Namibia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:206
+msgid "Nauru"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:207
+msgid "Nepal"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:208
+msgid "Netherlands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:209
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:210
+msgid "New Caledonia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:211
+msgid "New Zealand"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:212
+msgid "Nicaragua"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:213
+msgid "Niger"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:214
+msgid "Nigeria"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:215
+msgid "Niue"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:216
+msgid "Norfolk Island"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:217
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:218
+msgid "Norway"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:219
+msgid "Oman"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:220
+msgid "Pakistan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:221
+msgid "Palau"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:222
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:223
+msgid "Panama"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:224
+msgid "Papua New Guinea"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:225
+msgid "Paraguay"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:226
+msgid "Peru"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:227
+msgid "Philippines"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:228
+msgid "Pitcairn"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:229
+msgid "Poland"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:230
+msgid "Portugal"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:231
+msgid "Puerto Rico"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:232
+msgid "Qatar"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:233
+msgid "Reunion"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:234
+msgid "Romania"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:235
+msgid "Russian Federation"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:236
+msgid "Rwanda"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:237
+msgid "Saint Helena"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:238
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:239
+msgid "Saint Lucia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:240
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:241
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:242
+msgid "Samoa"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:243
+msgid "San Marino"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:244
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:245
+msgid "Saudi Arabia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:246
+msgid "Senegal"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:247
+msgid "Serbia and Montenegro"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:248
+msgid "Seychelles"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:249
+msgid "Sierra Leone"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:250
+msgid "Singapore"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:251
+msgid "Slovakia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:252
+msgid "Slovenia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:253
+msgid "Solomon Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:254
+msgid "Somalia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:255
+msgid "South Africa"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:256
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:257
+msgid "Spain"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:258
+msgid "Sri Lanka"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:259
+msgid "Sudan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:260
+msgid "Suriname"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:261
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:262
+msgid "Swaziland"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:263
+msgid "Sweden"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:264
+msgid "Switzerland"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:265
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:266
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:267
+msgid "Tajikistan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:268
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:269
+msgid "Thailand"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:270
+msgid "Timor-Leste"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:271
+msgid "Togo"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:272
+msgid "Tokelau"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:273
+msgid "Tonga"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:274
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:275
+msgid "Tunisia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:276
+msgid "Turkey"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:277
+msgid "Turkmenistan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:278
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:279
+msgid "Tuvalu"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:280
+msgid "Uganda"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:281
+msgid "Ukraine"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:282
+msgid "United Arab Emirates"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:283
+msgid "United Kingdom"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:284
+msgid "United States"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:285
+msgid "Uruguay"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:286
+msgid "Uzbekistan"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:287
+msgid "Vanuatu"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:288
+msgid "Venezuela"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:289
+msgid "Viet Nam"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:290
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:291
+msgid "Virgin Islands, U.s."
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:292
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:293
+msgid "Western Sahara"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:294
+msgid "Yemen"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:295
+msgid "Zambia"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:296
+msgid "Zimbabwe"
+msgstr ""
+
+#: Plugin/utils/Lib/I18nCountry.php:342
+msgid "Invalid argument #1: %s is not a valid %s identifyer."
+msgstr ""
+
+#: View/Application/index.ctp:11
+#: View/Blogs/view.ctp:11
+#: View/Categories/admin_index.ctp:32
+#: View/Posts/search.ctp:11
+msgid "Page précédente"
+msgstr ""
+
+#: View/Application/index.ctp:21
+#: View/Blogs/view.ctp:21
+#: View/Categories/admin_index.ctp:42
+#: View/Posts/search.ctp:21
+msgid "Page suivante"
+msgstr ""
+
+#: View/Blogs/add.ctp:7
+msgid "Blog Name"
+msgstr "Nom du blogue"
+
+#: View/Blogs/add.ctp:10
+msgid "Blog url"
+msgstr "Addresse internet du blogue"
+
+#: View/Blogs/add.ctp:16
+#: View/Blogs/admin_add.ctp:21
+#: View/Blogs/admin_edit.ctp:23
+#: View/Categories/admin_add.ctp:7
+#: View/Categories/admin_edit.ctp:7
+#: View/Posts/admin_edit.ctp:18
+msgid "Submit"
+msgstr "Sauvegarder"
+
+#: View/Blogs/admin_add.ctp:24
+#: View/Blogs/admin_edit.ctp:26
+#: View/Blogs/admin_index.ctp:12;62
+#: View/Categories/admin_add.ctp:12
+#: View/Categories/admin_edit.ctp:12
+#: View/Categories/admin_index.ctp:8;49
+#: View/Posts/admin_edit.ctp:21
+#: View/Posts/admin_index.ctp:9;68
+#: View/Users/admin_index.ctp:11
+msgid "Actions"
+msgstr ""
+
+#: View/Blogs/admin_add.ctp:26
+#: View/Blogs/admin_edit.ctp:29
+#: View/Categories/admin_add.ctp:15
+#: View/Categories/admin_edit.ctp:15
+#: View/Categories/admin_index.ctp:52
+#: View/Posts/admin_edit.ctp:26
+#: View/Posts/admin_index.ctp:71
+msgid "List Blogs"
+msgstr ""
+
+#: View/Blogs/admin_edit.ctp:28
+#: View/Posts/admin_edit.ctp:24
+#: View/Posts/admin_index.ctp:47
+msgid "Delete"
+msgstr ""
+
+#: View/Blogs/admin_edit.ctp:28
+#: View/Posts/admin_edit.ctp:24
+#: View/Posts/admin_index.ctp:47
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:7
+msgid "URL & Feed"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:25
+msgid "Fetch new posts"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:27
+msgid "See all fetched posts"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:32
+msgid "Yes"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:34
+msgid "No"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:41
+#: View/Categories/admin_index.ctp:17
+#: View/Posts/admin_index.ctp:46
+msgid "Edit"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:49
+#: View/Categories/admin_index.ctp:25
+#: View/Posts/admin_index.ctp:55
+#: View/Users/admin_index.ctp:37
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:55
+#: View/Posts/admin_index.ctp:61
+#: View/Users/admin_index.ctp:45
+msgid "previous"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:57
+#: View/Posts/admin_index.ctp:63
+#: View/Users/admin_index.ctp:55
+msgid "next"
+msgstr ""
+
+#: View/Blogs/admin_index.ctp:64
+#: View/Categories/admin_add.ctp:16
+#: View/Categories/admin_edit.ctp:16
+#: View/Categories/admin_index.ctp:53
+#: View/Posts/admin_edit.ctp:27
+#: View/Posts/admin_index.ctp:72
+msgid "New Blog"
+msgstr ""
+
+#: View/Categories/admin_add.ctp:14
+#: View/Categories/admin_edit.ctp:14
+msgid "List Categories"
+msgstr ""
+
+#: View/Categories/admin_index.ctp:51
+msgid "New Category"
+msgstr ""
+
+#: View/Layouts/default.ctp:100
+msgid "Posts"
+msgstr ""
+
+#: View/Layouts/default.ctp:105
+msgid "Blogs"
+msgstr ""
+
+#: View/Layouts/default.ctp:110
+msgid "Users"
+msgstr ""
+
+#: View/Layouts/default.ctp:115
+msgid "Categories"
+msgstr ""
+
+#: View/Posts/admin_edit.ctp:4
+msgid "Admin Edit Post"
+msgstr ""
+
+#: View/Posts/admin_edit.ctp:25
+msgid "List Posts"
+msgstr ""
+
+#: View/Posts/admin_edit.ctp:28
+#: View/Posts/admin_index.ctp:73
+msgid "List Tags"
+msgstr ""
+
+#: View/Posts/admin_edit.ctp:29
+#: View/Posts/admin_index.ctp:74
+msgid "New Tag"
+msgstr ""
+
+#: View/Posts/admin_index.ctp:26
+msgid "Fetch Preview"
+msgstr ""
+
+#: View/Posts/admin_index.ctp:39
+msgid "Change"
+msgstr ""
+
+#: View/Posts/admin_index.ctp:45
+msgid "View"
+msgstr ""
+
+#: View/Posts/admin_index.ctp:70
+msgid "New Post"
+msgstr ""
+
+#: View/Users/admin_index.ctp:5
+msgid "Name"
+msgstr ""
+
+#: View/Users/admin_index.ctp:6
+msgid "Followers"
+msgstr ""
+
+#: View/Users/admin_index.ctp:7
+msgid "Friends"
+msgstr ""
+
+#: View/Users/admin_index.ctp:8
+msgid "Admin"
+msgstr ""
+
+#: View/Users/admin_index.ctp:9
+msgid "Membre depuis"
+msgstr ""
+
+#: View/Users/admin_index.ctp:10
+msgid "Derniere visite"
+msgstr ""
+
+#: View/Users/admin_index.ctp:29
+msgid "View User"
+msgstr ""
+
+#: Model/Blog.php:validation
+#: for field name;validation url
+#: Model/Board.php:validation
+#: user_id;validation category_id;validation slug
+#: Model/Category.php:validation
+#: name Model/Post.php:validation
+#: title;validation slug;validation url;validation image_url;validation
+#: description Model/Tag.php:validation
+#: label;validation
+#: Model/User.php:validation
+#: username;validation email;validation avatar
+msgid "notempty"
+msgstr "Ce champs est requis"
+
+#: Model/Blog.php:validation
+#: for field url Model/Post.php:validation
+#: url;validation image_url
+msgid "url"
+msgstr "Address Internet"
+
+#: Model/Blog.php:validation
+#: for field published Model/Board.php:validation
+#: active Model/Post.php:validation
+#: is_active Model/User.php:validation
+#: is_suspended
+msgid "boolean"
+msgstr ""
+
+#: Model/Post.php:validation
+#: for field blog_id;validation hits_counts
+#: Model/Tag.php:validation
+#: posts_count
+msgid "numeric"
+msgstr ""
+
+#: Model/User.php:validation
+#: for field username
+msgid "alphanumeric"
+msgstr ""
+
+#: Model/User.php:validation
+#: for field email
+msgid "email"
+msgstr ""
+

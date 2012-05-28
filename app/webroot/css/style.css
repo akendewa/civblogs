@@ -1,0 +1,58 @@
+body {
+    background: #f7f7f7 url('../img/brillant.png') repeat 0 0;    
+}
+
+.post-image {
+    float :left;
+    margin : 5px;
+    width : 60px;    
+}
+.container {
+    background-color: #ffffff;
+    padding : 20px;
+    border : 1px solid #ddd;
+    margin-top :20px;
+    margin-bottom : 20px;
+}
+header {
+    margin-bottom : 10px;
+}
+
+.well h3 {
+    border-bottom : 1px solid #eee;
+    margin-bottom : 10px;
+    padding-bottom : 5px;
+}
+
+.post h4 {
+    margin : 10px 0;
+}
+
+.pagination .current, .pagination .disabled {
+    float: left;
+    padding: 0 14px;
+    line-height: 34px;
+    text-decoration: none;
+    border: 1px solid #DDD;
+    border-left-width: 0;
+}
+a {
+    color : #2C6700;
+}
+a.brand:hover {
+    text-decoration : none;
+}
+a.brand i {
+    background-color : #fff;
+    color : #333;
+}
+a span.logo-civ {
+    color : #ff6600;
+}
+a span.logo-blogs {
+    color : #92CD00;
+}
+
+.subnav {
+    margin-top : 10px;
+}

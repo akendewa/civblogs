@@ -1,0 +1,154 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2012-05-28 16:46-0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: regis bamba <regis.bamba@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Plugin/tags/Controller/TagsController.php:106
+msgid "The Tags has been saved."
+msgstr ""
+
+#: Plugin/tags/Controller/TagsController.php:122
+msgid "Tag saved."
+msgstr ""
+
+#: Plugin/tags/Controller/TagsController.php:145
+msgid "Tag deleted."
+msgstr ""
+
+#: Plugin/tags/Controller/TagsController.php:147
+#: Plugin/tags/Model/Tag.php:65;105
+msgid "Invalid Tag."
+msgstr ""
+
+#: Plugin/tags/Model/Tagged.php:169
+msgid "Find tagged will not work with a recursive level of -1, you need at least 0."
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_add.ctp:15
+msgid "Add %s"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_add.ctp:15
+#: Plugin/tags/View/Tags/admin_edit.ctp:15
+#: Plugin/tags/View/Tags/admin_index.ctp:77
+#: Plugin/tags/View/Tags/admin_view.ctp:13;54;55;57
+#: Plugin/tags/View/Tags/view.ctp:13
+msgid "Tag"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_add.ctp:20
+#: Plugin/tags/View/Tags/admin_edit.ctp:23
+msgid "Submit"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_add.ctp:24
+#: Plugin/tags/View/Tags/admin_edit.ctp:28
+#: Plugin/tags/View/Tags/admin_view.ctp:56
+#: Plugin/tags/View/Tags/view.ctp:54
+msgid "List %s"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_add.ctp:24
+#: Plugin/tags/View/Tags/admin_edit.ctp:28
+#: Plugin/tags/View/Tags/admin_index.ctp:13
+#: Plugin/tags/View/Tags/admin_view.ctp:56
+#: Plugin/tags/View/Tags/index.ctp:13
+#: Plugin/tags/View/Tags/view.ctp:54
+msgid "Tags"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_edit.ctp:15
+#: Plugin/tags/View/Tags/admin_view.ctp:54
+msgid "Edit %s"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_edit.ctp:27
+#: Plugin/tags/View/Tags/admin_index.ctp:64
+msgid "Delete"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_edit.ctp:27
+#: Plugin/tags/View/Tags/admin_index.ctp:64
+#: Plugin/tags/View/Tags/admin_view.ctp:55
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_index.ctp:17
+#: Plugin/tags/View/Tags/index.ctp:17
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_index.ctp:29
+#: Plugin/tags/View/Tags/index.ctp:29
+msgid "Actions"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_index.ctp:62
+#: Plugin/tags/View/Tags/index.ctp:62
+msgid "View"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_index.ctp:63
+msgid "Edit"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_index.ctp:71
+#: Plugin/tags/View/Tags/index.ctp:69
+msgid "previous"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_index.ctp:73
+#: Plugin/tags/View/Tags/index.ctp:71
+msgid "next"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_index.ctp:77
+#: Plugin/tags/View/Tags/admin_view.ctp:57
+msgid "New %s"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:15
+#: Plugin/tags/View/Tags/view.ctp:15
+msgid "Id"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:20
+#: Plugin/tags/View/Tags/view.ctp:20
+msgid "Identifier"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:25
+#: Plugin/tags/View/Tags/view.ctp:25
+msgid "Name"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:30
+#: Plugin/tags/View/Tags/view.ctp:30
+msgid "Keyname"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:35
+#: Plugin/tags/View/Tags/view.ctp:35
+msgid "Weight"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:40
+#: Plugin/tags/View/Tags/view.ctp:40
+msgid "Created"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:45
+#: Plugin/tags/View/Tags/view.ctp:45
+msgid "Modified"
+msgstr ""
+
+#: Plugin/tags/View/Tags/admin_view.ctp:55
+msgid "Delete %s"
+msgstr ""
+
