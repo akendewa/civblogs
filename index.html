@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Civblogs : Documentation" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Civblogs</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/akendewa/civblogs">View on GitHub</a>
+
+          <h1 id="project_title">Civblogs</h1>
+          <h2 id="project_tagline">Documentation</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/akendewa/civblogs/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/akendewa/civblogs/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>Présentation</h2>
+
+<p>Ceci est la documentation du projet <strong>civblogs</strong>.</p>
+
+<p>Pour parcourir le code source, rendez vous à <a href="https://github.com/akendewa/civblogs">https://github.com/akendewa/civblogs</a>.</p>
+
+<p><strong>civblogs</strong> est un simple annuaire qui indexe les billets provenant de la blogosphère ivoirienne.
+Mais vous pouvez facilement l'adapter à toute autre blogosphère.</p>
+
+<p>Vous pouvez voir l'application en ligne à l'addresse : <a href="http://civblogs.akendewa.org">http://civblogs.akendewa.org</a></p>
+
+<h2>Fonctionnalites</h2>
+
+<p><strong>NB: Ce projet est encore très récent, et peut changer a tout moment.</strong></p>
+
+<ul>
+<li>Connexion des utilisateurs via twitter</li>
+<li>Recherche des billets par catégories</li>
+<li>Recherche des billets par tag</li>
+<li>Affichage des billets recents</li>
+<li>Affichage des billets d'un blog</li>
+<li>Administration des utilisateurs</li>
+<li>Administrations des blogues</li>
+<li>Administrations des billets</li>
+<li>Récupération automatique des billets d'un blogue via le fill rss.</li>
+<li>Récupération automatique de l'apercu via Embedly.com</li>
+<li>Administration des catégories</li>
+</ul><h2>A faire</h2>
+
+<p>Comme mentionné plus haut, ce projet est encore très récent, il y'a donc beaucoup a faire.</p>
+
+<p>Dans l'immédiat, nous espérons :</p>
+
+<ul>
+<li>Permettre aux utilisateurs de s'abonner aux blogues directement a partir de la plateforme</li>
+<li>Produire un flux rss pour chaque catégorie</li>
+<li>Récupération automatique des billets via cron job</li>
+<li>Réduire le nombre de bugs</li>
+<li>Mettre en place les fonctionnalités suggérées par les utilisateurs sur : <a href="http://github.com/akendewa/civblogs/issues">http://github.com/akendewa/civblogs/issues</a>
+</li>
+</ul><h2>Installation</h2>
+
+<p>civblogs est basé sur <a href="http://cakephp.org">CakePHP</a> et nécessite :</p>
+
+<ul>
+<li>php &gt;= 5.2</li>
+<li>MySQL</li>
+<li>Une application Twitter (Pour la connexion des utilisateurs)</li>
+<li>Une application Embed.ly (Pour la récuperation des apercus des billets)</li>
+</ul><p>Commencez par télécharger le code source dans le dossier web de votre serveur php.
+Si vous avez <em>Git</em> installé sur votre machine, vous pouvez simplement faire un 'clone' du projet</p>
+
+<pre>
+git clone https://github.com/akendewa/civblogs.git
+</pre>
+
+<p>Sinon cliquez sur le bouton <strong>ZIP</strong> en haut de cette page.</p>
+
+<p>Une fois que vous avez téléchargé et copié les fichiers dans le dossier web de votre serveur php, suivez les étapes suivantes.</p>
+
+<ul>
+<li>Créez une application Twitter à l'addresse <a href="https://dev.twitter.com/apps/new">https://dev.twitter.com/apps/new</a>
+
+<ul>
+<li>Assurez vous de remplir tous les champs requis et surtout le <strong>Callback URL</strong>. (Vous pouvez entrer une addresse fictive telle que <a href="http://mondomaine.com">http://mondomaine.com</a>)</li>
+<li>Notez bien votre <strong>Consumer key</strong> et votre <strong>Consumer secret</strong>. Vous en aurez besoin pour continuer.<br>
+</li>
+</ul>
+</li>
+<li>Allez dans le dossier <strong>app/Config</strong> de votre application, faites une copie du fichier <strong>bootstrap.php.default</strong>. Ensuite renommez cette copie <strong>bootstrap.php</strong>
+</li>
+<li>
+<p>Ouvrez <strong>bootstrap.php</strong> et à la fin du fichier, changez les valeurs <strong>Twitter.ConsumerKey</strong> et <strong>Twitter.ConsumerSecret</strong> avec les votre.</p>
+
+<pre>
+Configure::write('Twitter.ConsumerKey', 'VOTRE TWITTER CONSUMER KEY');
+Configure::write('Twitter.ConsumerSecret', 'VOTRE TWITTER CONSUMER SECRET');
+</pre> </li>
+<li>
+<p>Créez une application Embed.ly à l'addresse <a href="https://app.embed.ly/pricing/free">https://app.embed.ly/pricing/free</a></p>
+
+<ul>
+<li>Assurez vous de choisir le <strong>Free Plan</strong> (Plan Gratuit)</li>
+<li>Une fois votre application créée, notez bien votre <strong>API Key</strong>. Vous en aurez besoin pour continuer.</li>
+</ul>
+</li>
+<li>
+<p>Encore dans le fichier <strong>bootstrap.php</strong> et aà la fin du fichier, changez la valeur de  <strong>Embedly.Key</strong>.</p>
+
+<pre>
+Configure::write('Embedly.Key', 'VOTRE EMBEDLY KEY');
+</pre>
+</li>
+</ul><p><strong>On y est presque :-)</strong></p>
+
+<ul>
+<li>Dans le dossier <strong>app/Config</strong>, faites une copie du fichier <strong>core.php.default</strong>. Ensuite renommez cette copie <strong>core.php</strong>
+</li>
+<li>Répérez les lignes suivantes, et changes les valeurs de ces deux variables de configuration</li>
+</ul><pre>
+/**
+ * A random string used in security hashing methods.
+ */
+Configure::write('Security.salt', 'REPLACE THIS WITH YOUR SECURITY SALT');
+
+/**
+ * A random numeric string (digits only) used to encrypt/decrypt strings.
+ */
+Configure::write('Security.cipherSeed', 'REPLACE THIS WITH YOUR CIPHER SEED');
+</pre>
+
+<p>Maintenant, il est temps d'installer les tables dans la base de données de l'application.</p>
+
+<ul>
+<li>Créez une base de données MySQL si vous ne l'avez pas encore fait.</li>
+<li>Dans le dossier <strong>app/Config</strong>, faites une copie du fichier <strong>database.php.default</strong>. Ensuite renommez cette copie <strong>database.php</strong>
+</li>
+<li>
+<p>Changez la variable <strong>$default</strong> et entrez les paramètres de connexion à votre base de données </p>
+
+<pre>
+public $default = array(
+    'datasource' =&gt; 'Database/Mysql',
+    'persistent' =&gt; false,
+    'host' =&gt; 'localhost',
+    'login' =&gt; 'user',
+    'password' =&gt; 'password',
+    'database' =&gt; 'database_name',
+    'prefix' =&gt; '',
+    //'encoding' =&gt; 'utf8',
+);
+</pre>
+</li>
+<li><p>Dans le dossier <strong>app</strong>, ouvrez le fichier <strong>install-tables.sql</strong> et executez toutes les commandes présentes dans ce fichier dans votre base de donné</p></li>
+<li>
+<p>Si tous c'est bien passé, les tables suivantes seront créées :</p>
+
+<pre>
+blogs
+blogs_categories
+categories
+posts
+tagged
+tags
+users
+</pre>
+</li>
+</ul><p>Bien sur elles sont vides pour le moment.</p>
+
+<p>Enfin! L'installation de votre application est terminée. si tout c'est bien passé vous pourrez voir la page d'accueil (vide pour le moment) en vous rendant á http://localhost/civblogs</p>
+
+<h2>Démarrage</h2>
+
+<p>Pour démarrer votre application, vous devez rajouter des blogues, et ensuite l'application vous aidera à récupérer les billets de ces blogues.</p>
+
+<p>Pour pouvoir rajouter un blogue, il faut que vous ayez une compte utlisateur et un accès admin.
+Civblogs utlise Twitter pour authentifier les utilisateurs.</p>
+
+<p>Suivez les étapes suivantes :</p>
+
+<ul>
+<li>Rendez vous a l'addresse http://localhost/civblogs/users/twitter_login. Vous serez redirigé vers une page Twitter.</li>
+<li>Autorisez votre application Twitter à avoir accès à votre compte.</li>
+<li>Après l'autorisation, vous serez redirigé vers la page d'accueil. Si tout c'est bien passé, vous verez votre pseudo twitter s'afficher dans la barre de menu.</li>
+</ul><p>Maintenant que vous avez créé votre compte utilisateur, il vous faut un accès <em>admin</em>.</p>
+
+<ul>
+<li>Si vous avez accès à <strong>phpMyAdmin</strong>, répérez dans la table <strong>users</strong> l'enregistrement de votre compte utlisateur et changer la propriété <strong>is_admin</strong> à <strong>1</strong>.</li>
+<li>Sinon si vous pouvez exécuter la commande SQL suivante :
+<pre>
+UPDATE  VOTRE_DB.<code>users</code> SET  <code>is_admin</code> =  '1' WHERE  <code>users</code>.<code>id</code> = ID_DE_VOTRE_COMPTE_UTILISATEUR;
+</pre>
+</li>
+</ul><p>Et voilà lorsque vous actualiser la page http://localhost/civblogs, vous avez maintenant accès au menu <strong>Admin</strong>.</p>
+
+<h2>Ajout de données;</h2>
+
+<p>Pour ajouter des donn&amp;eacutes; dans votre annuaire vous avez 2 choix :</p>
+
+<ul>
+<li>Vous pouvez exécuté le fichier SQL <strong>install-data.sql</strong> dans votre base de données</li>
+<li>Ou rajouter des données manuellement.</li>
+</ul><p><em>Comment rajouter des données manuellement?</em></p>
+
+<ul>
+<li>Cliquer sur <strong>Admin</strong> ensuite sur <strong>Blogs</strong>
+</li>
+<li>Cliquer sur <strong>Add blog</strong> et completer le formulaire et soumettre. (Il est tr&amp;eagrave;s important que vous remplissiez tous les champs)</li>
+<li>Cliquer sur <strong>Fetch rss</strong>, les articles du blogue seront récupérés</li>
+<li>Cliquer sur <strong>See all fetched posts</strong>. Vous aurez une liste de toutes billets de ce blogue.</li>
+<li>Pour chaque billet, cliquer sur <strong>fetch preview</strong>, et ensuite sur <strong>Change</strong> dans la case suivante.</li>
+</ul><p>Et voila! les billet s'afficheront sur votre page d'accueil!</p>
+
+<h2>Contributeurs</h2>
+
+<ul>
+<li>Régis Bamba (<a href="http://github.com/regisbamba">http://github.com/regisbamba</a>)</li>
+</ul><h2>License</h2>
+
+<p>Copyright 2012, Akendewa</p>
+
+<p>Licensed under The MIT License
+Redistributions of files must retain the above copyright notice.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Civblogs maintained by <a href="https://github.com/akendewa">akendewa</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
