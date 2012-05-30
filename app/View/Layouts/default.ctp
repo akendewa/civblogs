@@ -1,11 +1,25 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>
-            <?php echo $title_for_layout; ?> - civblogs - L'annuaire des blogs de la cote d'ivoire
-        </title>
-        <?php            
+        <title>L'annuaire gratuit des blogs <?php 
+		if( $title_for_layout == 'A la une')
+			echo ''; 
+		else echo strtolower($title_for_layout); 
+		?> de Côte d'Ivoire | Annuaire CIVBlogs</title>
+		<meta name="description" content="Civblogs - l'annuaire gratuit de <?php if( $title_for_layout == 'A la une') echo ''; else echo strtolower($title_for_layout);?>  de la blogosphère ivoirienne - référencement gratuit">    
+		<meta name="language" content="fr"/>
+		<meta name="DC.title" content="Civblogs - l'annuaire <?php if( $title_for_layout == 'A la une') echo ''; else echo strtolower($title_for_layout);?> gratuit de la blogosphère ivoirienne - référencement gratuit" />
+		
+		<meta name="geo.placename" content="Abidjan, Côte d'Ivoire" />
+		<meta name="geo.position" content="7.539989;-5.54708"/> 
+		<meta name="ICBM" content="7.539989, -5.54708"/> 
+		<meta name="author" content="Akewdewa "/>
+		<meta name="copyright" content="Akendewa"/>
+		<meta name="subjet" content="Referencement gratuit - annuaire <?php if( $title_for_layout == 'A la une') echo ''; else echo strtolower($title_for_layout);?> gratuit - blog cote d'ivoire"/>
+		<meta name="category" content="Referencement gratuit - annuaire <?php if( $title_for_layout == 'A la une') echo ''; else echo strtolower($title_for_layout);?> gratuit - blog cote d'ivoire"/>
+        
+		<?php            
             
             echo $this->Html->css(array(
                 'bootstrap.min',
@@ -29,9 +43,15 @@
             echo $this->fetch('meta');
             echo $this->fetch('css');		        
         ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">    
+		
+		<!-- Balises Open Graph pour Facebook-->
+		<meta property='og:locale' content='fr_FR'/>
+		<meta property='og:title' content='Civblogs - l'annuaire <?php if( $title_for_layout == 'A la une') echo ''; else echo strtolower($title_for_layout);?> gratuit de la blogosphère ivoirienne - référencement blog gratuit'/>
+		<meta property='og:url' content="http://civblogs.akendewa.org"/>
+		<meta property='og:site_name' content='CIVBlogs - Annuaire <?php if( $title_for_layout == 'A la une') echo ''; else echo strtolower($title_for_layout);?> gratuit'/>
+		<meta property='og:type' content='website'/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+           
         <style>
             
         </style>
