@@ -11,7 +11,6 @@
 		<meta name="language" content="fr"/>
 		<meta name="DC.title" content="Civblogs - l'annuaire <?php if( $title_for_layout == 'A la une') echo ''; else echo strtolower($title_for_layout);?> gratuit de la blogosphère ivoirienne - référencement gratuit" />
 		
-		test
 		<meta name="geo.placename" content="Abidjan, Côte d'Ivoire" />
 		<meta name="geo.position" content="7.539989;-5.54708"/> 
 		<meta name="ICBM" content="7.539989, -5.54708"/> 
