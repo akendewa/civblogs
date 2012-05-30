@@ -13,7 +13,7 @@
 
 App::uses('AppController', 'Controller');
 
-class CivBlogsController extends AppController {
+class BlogsController extends AppController {
 
     public $uses = array('Blog', 'Post', 'Tag', 'Category');
     public $helpers = array('Time', 'Text');
