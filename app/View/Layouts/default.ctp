@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <title>
-            <?php echo $title_for_layout; ?> - civblogs - L'annuaire des blogs de la cote d'ivoire
-        </title>
-        <?php            
+   <head>
+<meta charset="utf-8">
+<title>L'annuaire gratuit des blogs <?php
+if( $title_for_layout != 'A la une')
+echo strtolower($title_for_layout);
+?> de Côte d'Ivoire | Annuaire CIVBlogs</title>
+<meta name="description" content="Civblogs - l'annuaire gratuit <?php if( $title_for_layout != 'A la une') echo strtolower($title_for_layout);?> de la blogosphère ivoirienne - référencement gratuit">
+<meta name="language" content="fr"/>
+<meta name="DC.title" content="Annuaire <?php if( $title_for_layout != 'A la une') echo strtolower($title_for_layout);?> gratuit de la blogosphère ivoirienne - référencement gratuit | Annuaire CIVBlogs" />
+<meta name="geo.placename" content="Abidjan, Côte d'Ivoire" />
+<meta name="geo.position" content="7.539989;-5.54708"/>
+<meta name="ICBM" content="7.539989, -5.54708"/>
+<meta name="author" content="Akewdewa "/>
+<meta name="copyright" content="Akendewa"/>
+<meta name="subjet" content="Referencement gratuit - annuaire <?php if( $title_for_layout != 'A la une') echo strtolower($title_for_layout);?> gratuit - blog cote d'ivoire"/>
+<meta name="category" content="Referencement gratuit - annuaire <?php if( $title_for_layout != 'A la une') echo strtolower($title_for_layout);?> gratuit - blog cote d'ivoire - Blog ivoirien"/>
+	<?php
             
             echo $this->Html->css(array(
                 'bootstrap.min',
@@ -21,30 +32,33 @@
                     'bootstrap.min',
                 ),
                 array('block' => 'scriptBottom')
-            ); 
+            );
             
-            echo $this->Html->meta('icon');                       
+            echo $this->Html->meta('icon');
 
 
             echo $this->fetch('meta');
-            echo $this->fetch('css');		        
+            echo $this->fetch('css');	
         ?>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">    
-        <style>
-            
-        </style>
+<!-- Balises Open Graph pour Facebook-->
+<meta property="og:locale" content="fr_FR"/>
+<meta property="og:title" content="Civblogs - l'annuaire <?php if($title_for_layout != 'A la une') echo strtolower($title_for_layout);?> gratuit de la blogosphère ivoirienne - référencement blog gratuit"/>
+<meta property="og:url" content="http://civblogs.akendewa.org"/>
+<meta property="og:site_name" content="website"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+<style>
+</style>
 
-        <!-- Le fav and touch icons -->
-        <meta property="og:image" content="<?php echo Router::url('/img/civblogs.jpg')?>" />
-        <link rel="apple-touch-icon-precomposed" href="<?php echo Router::url('/img/civblogs.jpg')?>">
-    </head>
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- Le fav and touch icons -->
+<meta property="og:image" content="<?php echo Router::url('/img/civblogs.jpg')?>" />
+<link rel="apple-touch-icon-precomposed" href="<?php echo Router::url('/img/civblogs.jpg')?>">
+</head>
     <body>
     <div class="container">
         <div class="row">
