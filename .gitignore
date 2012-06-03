@@ -56,6 +56,6 @@ Thumbs.db
 !/app/tmp/tests/
 !/app/tmp/tests/empty
 
-app/config/database.php
-app/config/core.php
-app/config/bootstrap.php
+/app/config/database.php
+/app/config/core.php
+/app/config/bootstrap.php
